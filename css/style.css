@@ -1,0 +1,232 @@
+body {
+    font-size: 62.5%;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin-left: 0.2rem;
+    padding-bottom: 2rem;
+}
+
+.bar {
+    width: 100%;
+    height: 0.6rem;
+    background-color: #86C6E1;
+}
+
+.bar_25 {
+    width: 250px;
+    height: 0.6rem;
+    background-color: #86C6E1;
+}
+
+.profile_text {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile_text_italic {
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.html_icon {
+    width: 10rem;
+    height: 10rem;
+}
+
+.homecard {
+    height: 20rem;
+}
+
+.homecard_img {
+    padding-top: 3rem;
+    width: 100%;
+    height: 10rem;
+}
+
+.homecard_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+}
+
+.homecard_text_white {
+    color: white;
+}
+
+.homecard_text_black {
+    color: black;
+}
+
+.homecard_one {
+    background-color: #FC2E2E;
+}
+
+.homecard_two {
+    background-color: #F8FC2E;
+}
+
+.homecard_three {
+    background-color: #2E68FC;
+}
+
+.homecard_four {
+    background-color: #6A9B03;
+}
+
+.socialbar {
+    background-color: #71C0D1;
+    width: 100%;
+    height: 20rem;
+}
+
+.socialiconsbar {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.socialicon {
+    border-radius: 50%;
+    background-color: #43897C;
+    width: 15rem;
+    height: 15rem;
+    align-self: center;
+}
+
+.socialiconimage {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 70%;
+    height: 70%;
+}
+
+.ratingdiv {
+    width: 20rem;
+    height: 3rem;
+}
+
+.ratingtxt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.ratingimg {
+    width: 100%;
+    height: 100%;
+}
+
+.techcard {
+    width: auto;
+    background-color: #43897C;
+}
+
+.techcard_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3rem;
+    color: white;
+}
+
+.techcard_img {
+    height: 13rem;
+}
+
+.techcard_text {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.techcard_rating_div {
+    height: 2.5rem;
+    width: 15rem;
+}
+
+.experience_title {
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experience_text {
+    margin-top: -2rem;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.experience_small {
+    margin-top: -2rem;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:768px) {
+    .html_icon {
+        display: none;
+    }
+    .socialiconsbar {
+        flex-direction: column;
+    }
+    .socialbar {
+        height: 55rem;
+    }
+    .socialicon {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .ratingdiv {
+        margin-left: 4.3rem;
+    }
+    .techcard {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.name_brand {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2.0rem;
+}
+
+.nav_links {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.bg-navbar {
+    background-color: #71C0D1;
+}
+
+.profile_img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+}
+
+@media screen and (min-width:768px) {
+    .row {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:991px) {
+    .nav_links_pad {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width:992px) {
+    .ratingdiv {
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1199px) {
+    .ratingdiv {
+        margin-left: 18rem;
+    }
+}
